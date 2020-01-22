@@ -27,8 +27,9 @@ Population by state for several years, using 2018 as the most current to match t
 # DATA WRANGLING
 1. Dropped columns not used
 2. Renamed columns
-3. Performed counts
-4. Uppercase columns
+4. Uppercase state columns to allow for better matching
+5. Searched data frames to validate data could be pulled
+
 
 # DATA SCHEMA
 ![GitHub Logo](ERD.PNG)
