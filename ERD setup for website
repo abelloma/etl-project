@@ -1,0 +1,24 @@
+Brewerey
+-
+Brewery_ID INTEGER PK
+Brewery_Name VARCHAR
+state VARCHAR
+count INTEGER
+
+Wineries
+-
+Winery_ID INTEGER PK
+state VARCHAR FK >- Brewery.state
+count INTEGER	
+
+Population
+-
+Population_ID INTEGER PK
+state VARCHAR FK >- Brewery.state
+population DOUBLE
+
+Income
+-
+Income_ID INTEGER PK
+state VARCHAR FK >- Brewery.state
+income DOUBLE
