@@ -20,7 +20,7 @@ Data related to the number of wineries in the United States was obtained from wi
 Data related to the number of breweries in the United States was obtained kaggle.com.  Data includes brewery name, type, address, website, state, total breweries in state.
 [Link Here](https://www.kaggle.com/brkurzawa/us-breweries)
 
-## POPULATE BY STATE
+## POPULATION BY STATE
 Population by state for several years, using 2018 as the most current to match the income by state from the United States Census Bureau.
 [Link Here](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html)
 
@@ -29,6 +29,8 @@ Population by state for several years, using 2018 as the most current to match t
 2. Renamed columns
 4. Uppercase state columns to allow for better matching
 5. Searched data frames to validate data could be pulled
+6. Consolidated data using using groupby function
+ 
 
 
 # DATA SCHEMA
